@@ -1,5 +1,33 @@
 # certified-federal-cloud-solutions-architect
 This is a repository for students taking the Certified Federal Cloud Solutions Architect (CFCSA) Certification
+
+## 🤖 GitHub Follower Notification Agent
+
+This repository now includes a **GitHub Follower Notification Agent** that monitors your GitHub followers and sends notifications when someone new follows you.
+
+### Quick Start with the Agent
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure your settings
+cp .env.example .env
+# Edit .env with your GitHub token and notification preferences
+
+# Test the configuration
+python follower_agent.py --test
+
+# Run once to check for new followers
+python follower_agent.py --once
+
+# Run continuously to monitor followers
+python follower_agent.py
+```
+
+For detailed setup instructions, see [README_AGENT.md](README_AGENT.md).
+
+---
 # Certified Federal Cloud Solutions Architect
 
 This repository provides resources, study guides, and practical examples for individuals preparing for certification as a Federal Cloud Solutions Architect. It covers topics relevant to cloud architecture in the context of federal regulations, compliance, security, and best practices. Materials include reference documentation, sample architectures, hands-on labs, and exam preparation materials tailored to federal cloud environments.
